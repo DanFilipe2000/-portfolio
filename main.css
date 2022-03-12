@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #93D997;
+}
+
+.logodiv{
+  width: 127px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.header h1{
+  color: #03031B;
+  width: 40px;
+  font-size: 25px;
+  margin: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+
+.header #logo{
+  color: #E6DEC8;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.social-icons{
+  margin-top: 15px;
+  width: 300px;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#github{
+  width: 80px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#contato{
+  width: 78px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#linkedin{
+  width: 87px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+#github img{
+  width: 20px;
+  height: 50%;
+  display: block;
+}
+
+#github p{
+  color: #03031B;
+  font-family: 'Montserrat';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#linkedin img{
+  width: 20px;
+  height: 50%;
+  display: block;
+}
+
+#linkedin p{
+  color: #03031B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contato img{
+  width: 20px;
+  height: 50%;
+  display: block;
+}
+
+#contato p{
+  color: #03031B;
+  font-family: 'Montserrat';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
