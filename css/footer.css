@@ -1,0 +1,16 @@
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+footer a{
+  color: whitesmoke;
+  opacity: 50%;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: none;
+}

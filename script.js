@@ -1,5 +1,5 @@
-let audio = document.getElementById("heylisten")
+let audio = document.getElementById("heylisten");
 
 function mouseOver() {
     audio.play();
-}
+};
