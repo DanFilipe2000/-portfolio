@@ -1,0 +1,36 @@
+main{
+  
+}
+
+.titulodiv{
+  margin-top: 20px;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 10px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main p{
+  display: flex;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+main p #name{
+  color: #52DD5F;
+}
+
+main p #entrelinhas{
+  font-size: 10px;
+}
