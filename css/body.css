@@ -1,0 +1,37 @@
+body{
+  background-color: #041424;
+}
+
+main section{
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main section p{
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 18px;
+  margin: 10px;
+}
+
+main section h1{
+  font-size: 20px;
+  margin: 10px
+}
+
+#name{
+  color: #52DD5F;
+}
+
+#entrelinhas{
+  font-size: 10px;
+}

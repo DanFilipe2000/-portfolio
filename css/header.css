@@ -10,13 +10,15 @@
   height: 50px;
   display: flex;
   justify-content: space-around;
-  background-color: #93D997;
+  background-color: #52DD5F;
 }
 
 .logodiv{
-  width: 127px;
+  width: 140px;
   display: inline-flex;
   justify-content: space-between;
+  vertical-align: middle;
+  margin-top: 4px;
 }
 
 .header h1{
@@ -24,72 +26,52 @@
   width: 40px;
   font-size: 25px;
   margin: 8px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Courier New', 'Arial Narrow', Arial, sans-serif;
   font-style: oblique;
 }
 
 .header #logo{
   color: #E6DEC8;
-  font-size: 30px;
-  font-style: oblique;
+  font-size: 28px;
+  font-style: italic;
 }
 
 .social-icons{
-  margin-top: 15px;
-  width: 300px;
+  margin-top: 18px;
+  width: 310px;
   display: inline-flex;
   justify-content: space-around;
 }
 
 #github{
-  width: 80px;
+  width: 83px;
   display: inline-flex;
   justify-content: space-between;
 }
 
 #contato{
-  width: 78px;
+  width: 90px;
   display: inline-flex;
   justify-content: space-between;
 }
 
 #linkedin{
-  width: 87px;
+  width: 100px;
   display: inline-flex;
   justify-content: space-between;
 }
 
-#github img{
-  width: 20px;
-  height: 50%;
-  display: block;
-}
-
 #github p{
   color: #03031B;
-  font-family: 'Montserrat';
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#linkedin img{
-  width: 20px;
-  height: 50%;
-  display: block;
+  font-family: 'Courier New';
 }
 
 #linkedin p{
   color: #03031B;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#contato img{
-  width: 20px;
-  height: 50%;
-  display: block;
+  font-family: 'Courier New';
 }
 
 #contato p{
   color: #03031B;
-  font-family: 'Montserrat';
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New';
 }
