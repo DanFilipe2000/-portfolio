@@ -2,9 +2,15 @@ body{
   background-color: #041424;
 }
 
-main section{
+main{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main .section-1{
   height: 100%;
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
   color: #E6DEC8;
   font-family: "Courier New";
@@ -14,6 +20,11 @@ main section{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-width: 2px;
+  border-bottom-color: #52DD5F;
+  border-bottom-style: dashed;
+  padding-bottom: 20px;
+  align-self: center;
 }
 
 main section p{
@@ -21,6 +32,7 @@ main section p{
   font-family: "Courier New";
   font-size: 18px;
   margin: 10px;
+  text-align: center;
 }
 
 main section h1{
@@ -34,4 +46,54 @@ main section h1{
 
 #entrelinhas{
   font-size: 10px;
+}
+
+main .section-2{
+  padding-top: 20px;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrossel{
+  display: inline-flex;
+}
+
+.carrossel ul{
+  display: inline-flex;
+  padding: 20px;
+}
+
+.carrossel ul li{
+  padding: 10px;
+}
+
+.carrossel ul li img{
+  width: 100px;
+}
+
+li{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+button img{
+  width: 20px;
+}
+
+#rigth-button{
+  transform: rotate(180deg);
 }
