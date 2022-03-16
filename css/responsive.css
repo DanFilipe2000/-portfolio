@@ -1,0 +1,39 @@
+label[for="menu-button"]{
+  padding: 15px;
+  color: #041424;
+  font-family: 'Courier New', Courier, monospace;
+  display: none;
+  font-size: 20px;
+}
+
+#menu-button {
+  display: none;
+}
+
+@media(max-width: 500px) {
+  label[for="menu-button"]{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 0px;
+  }
+
+  .header{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logodiv{
+    display: none;
+  }
+
+  .social-icons {
+    padding-top: 1px;
+    display: none;
+  }
+
+  #menu-button:checked ~ .social-icons {
+    position: relative;
+    display: inline-flex;
+  }
+}
