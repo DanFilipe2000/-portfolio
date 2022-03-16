@@ -29,11 +29,13 @@ label[for="menu-button"]{
 
   .social-icons {
     padding-top: 1px;
-    display: none;
+    margin-left: -100%;
   }
 
   #menu-button:checked ~ .social-icons {
     position: relative;
     display: inline-flex;
+    transition: all 2s;
+    margin-left: 0%;
   }
 }
