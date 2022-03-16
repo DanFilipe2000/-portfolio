@@ -49,7 +49,8 @@ main section h1{
 }
 
 main .section-2{
-  padding-top: 20px;
+  width: 100%;
+  padding-top: 30px;
   color: #E6DEC8;
   font-family: "Courier New";
   font-size: 10px;
@@ -57,43 +58,62 @@ main .section-2{
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .carrossel{
+  height: 100%;
+  width: 80%;
   display: inline-flex;
+  border-width: 2px;
+  border-bottom-color: #52DD5F;
+  border-bottom-style: dashed;
+  padding-bottom: 15px;
+  align-self: center;
+  justify-content: center;
 }
 
 .carrossel ul{
-  display: inline-flex;
+  width: 100px;
+  display: flex;
+  justify-content: center;
   padding: 20px;
 }
 
 .carrossel ul li{
-  padding: 10px;
+  transition: all 0.6s;
+  padding: 0px;
 }
 
 .carrossel ul li img{
-  width: 100px;
+  width: 50px;
 }
 
 li{
+  width: 0px;
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 button{
   background-color: transparent;
   border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.5);
 }
 
 button img{
   width: 20px;
 }
 
-#rigth-button{
+#rigth-button-img{
   transform: rotate(180deg);
+}
+
+.tecnology-item{
+  opacity: 0%;
 }

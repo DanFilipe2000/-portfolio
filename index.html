@@ -35,52 +35,52 @@
     <section class="section-1">
       <audio id="heylisten" src="./audio/navi_hey_listen_floating.mp3" ></audio>
       <h1 onmouseover="mouseOver()">Hey, listen!</h1>
-      <p id="saudacao">Olá, meu nome é&nbsp<span id="name">Daniel</span>, desenvolvedor Web, apaixonado por tecnologia <span id="entrelinhas">*e por zelda também*</span></p>
-      <p>Curso Desenvolvimento da Web na Trybe - escola de programação e almejo </br> ingressar ao curso superior de ciências da computação</p>
+      <p id="saudacao">Olá, meu nome é&nbsp<span id="name">Daniel</span>, tenho 21 anos e sou desenvolvedor Web Fullstack</p>
+      <p>Curso Desenvolvimento da Web na Trybe - escola de programação</p>
     </section>
     <section class="section-2">
       <h1>Tecnologias:</h1>
       <div class="carrossel">
-        <button class="carrossel-button"><img src="./img/left-arrow.png" alt="Botão esquerda"></button>
-        <ul>
-          <li>
+        <button onclick="leftButton()" id="left-button"><img src="./img/left-arrow.png" alt="Botão esquerda"></button>
+        <ul class="tecnology-ul">
+          <li class="tecnology-item-selected">
             <img src="./img/tecnologies/git.png" alt="Ícone do Git">
             <p>Git</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/github.png" alt="Ícone do GitHub">
             <p>GitHub</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/docker.png" alt="Ícone do Docker">
             <p>Docker</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/html-5 (1).png" alt="Ícone do HTML">
             <p>HTML</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/css-3.png" alt="Ícone do CSS">
             <p>CSS</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/script-java.png" alt="Ícone do JavaScript">
             <p>JavaScript</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/atom.png" alt="Ícone do React">
             <p>React</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/sql.png" alt="Ícone do SQL">
             <p>MySQL</p>
           </li>
-          <li>
+          <li class="tecnology-item">
             <img src="./img/tecnologies/node-js.png" alt="Ícone do NodeJs">
             <p>Node.JS</p>
           </li>
         </ul>
-        <button class="carrossel-button"><img id="rigth-button" src="./img/left-arrow.png" alt="Botão direita"></button>
+        <button onclick="rigthButton()" id="rigth-button"><img id="rigth-button-img" src="./img/left-arrow.png" alt="Botão direita"></button>
       </div>
     </section>
   </main>
