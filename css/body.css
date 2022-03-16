@@ -38,6 +38,9 @@ main section p{
 main section h1{
   font-size: 20px;
   margin: 10px;
+}
+
+main .section-1 h1{
   cursor: pointer;
 }
 

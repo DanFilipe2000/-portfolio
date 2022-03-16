@@ -4,6 +4,7 @@ label[for="menu-button"]{
   font-family: 'Courier New', Courier, monospace;
   display: none;
   font-size: 20px;
+  cursor: pointer;
 }
 
 #menu-button {
@@ -35,7 +36,7 @@ label[for="menu-button"]{
   #menu-button:checked ~ .social-icons {
     position: relative;
     display: inline-flex;
-    transition: all 2s;
+    transition: all 1s;
     margin-left: 0%;
   }
 }
