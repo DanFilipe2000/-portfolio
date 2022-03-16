@@ -37,7 +37,8 @@ main section p{
 
 main section h1{
   font-size: 20px;
-  margin: 10px
+  margin: 10px;
+  cursor: pointer;
 }
 
 #name{
@@ -97,6 +98,9 @@ li{
 }
 
 button{
+  width: 20px;
+  height: 20px;
+  align-self: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
