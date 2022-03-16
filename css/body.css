@@ -2,9 +2,15 @@ body{
   background-color: #041424;
 }
 
-main section{
+main{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main .section-1{
   height: 100%;
-  width: 100%;
+  width: 80%;
   margin-top: 20px;
   color: #E6DEC8;
   font-family: "Courier New";
@@ -14,6 +20,11 @@ main section{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-width: 2px;
+  border-bottom-color: #52DD5F;
+  border-bottom-style: dashed;
+  padding-bottom: 20px;
+  align-self: center;
 }
 
 main section p{
@@ -21,6 +32,7 @@ main section p{
   font-family: "Courier New";
   font-size: 18px;
   margin: 10px;
+  text-align: center;
 }
 
 main section h1{
@@ -34,4 +46,74 @@ main section h1{
 
 #entrelinhas{
   font-size: 10px;
+}
+
+main .section-2{
+  width: 100%;
+  padding-top: 30px;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carrossel{
+  height: 100%;
+  width: 80%;
+  display: inline-flex;
+  border-width: 2px;
+  border-bottom-color: #52DD5F;
+  border-bottom-style: dashed;
+  padding-bottom: 15px;
+  align-self: center;
+  justify-content: center;
+}
+
+.carrossel ul{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.carrossel ul li{
+  transition: all 0.6s;
+  padding: 0px;
+}
+
+.carrossel ul li img{
+  width: 50px;
+}
+
+li{
+  width: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.5);
+}
+
+button img{
+  width: 20px;
+}
+
+#rigth-button-img{
+  transform: rotate(180deg);
+}
+
+.tecnology-item{
+  opacity: 0%;
 }

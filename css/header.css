@@ -38,25 +38,7 @@
 
 .social-icons{
   margin-top: 18px;
-  width: 310px;
-  display: inline-flex;
-  justify-content: space-around;
-}
-
-#github{
-  width: 83px;
-  display: inline-flex;
-  justify-content: space-between;
-}
-
-#contato{
-  width: 90px;
-  display: inline-flex;
-  justify-content: space-between;
-}
-
-#linkedin{
-  width: 100px;
+  width: 230px;
   display: inline-flex;
   justify-content: space-between;
 }
