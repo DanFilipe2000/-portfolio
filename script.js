@@ -13,8 +13,6 @@ function progressBar() {
     const barWidth = 120/itens.length;
     const completeBar = barWidth * (selectedindex + 1);
 
-    console.log(completeBar);
-
     progressBarContent.style.width = `${completeBar}px`;
 }
 
@@ -47,3 +45,5 @@ function rigthButton() {
     itens[selectedindex].className = "tecnology-item-selected";
     progressBar();
 }
+
+window.onload = progressBar();
