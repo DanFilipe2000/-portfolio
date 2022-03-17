@@ -71,7 +71,7 @@ main .section-2{
   border-width: 2px;
   border-bottom-color: #52DD5F;
   border-bottom-style: dashed;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   align-self: center;
   justify-content: center;
 }
@@ -101,12 +101,15 @@ li{
 }
 
 button{
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   align-self: center;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #52DD5F;
+  font-size: 40px;
+  font-weight: 100;
 }
 
 button:hover{
@@ -123,4 +126,34 @@ button img{
 
 .tecnology-item{
   opacity: 0%;
+}
+
+.progress-bar{
+  position: absolute;
+  margin-top: 120px;
+  width: 110px;
+  height: .1px;
+  padding: 5px;
+  border: #52DD5F;
+  border-style: double;
+}
+
+.progress-bar-content{
+  position: absolute;
+  margin-top: 123px;
+  width: 0px;
+  height: 10px;
+  background-color: #52DD5F;
+}
+
+.section-3{
+  width: 100%;
+  padding-top: 30px;
+  color: #E6DEC8;
+  font-family: "Courier New";
+  font-size: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
