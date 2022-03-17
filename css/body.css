@@ -140,9 +140,10 @@ button img{
 
 .progress-bar-content{
   position: absolute;
-  margin-top: 123px;
+  margin-top: 121px;
   width: 0px;
-  height: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #52DD5F;
 }
 
