@@ -15,11 +15,59 @@
   justify-content: space-around;
 }
 
+#mostrar-1{
+  color: #52DD5F;
+  font-size: 15px;
+}
+
+#sumir-1{
+  display: none;
+}
+
+#mostrar-2{
+  color: #52DD5F;
+  font-size: 15px;
+}
+
+#sumir-2{
+  display: none;
+}
+
+#mostrar-3{
+  color: #52DD5F;
+  font-size: 15px;
+}
+
+#sumir-3{
+  display: none;
+}
+
+#mostrar-4{
+  color: #52DD5F;
+  font-size: 15px;
+}
+
+#sumir-4{
+  display: none;
+}
+
+#mostrar-5{
+  color: #52DD5F;
+  font-size: 15px;
+}
+
+#sumir-5{
+  display: none;
+}
+
+
+.projects-ul li input{
+  display: none;
+}
+
 .projects-ul li div{
   width: 100%;
   display: none;
-  position: relative;
-  margin-bottom: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-items: center;
@@ -30,30 +78,35 @@ label[for="project-1"]{
   font-size: 15px;
   padding: 5px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 label[for="project-2"]{
   font-size: 15px;
   padding: 5px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 label[for="project-3"]{
   font-size: 15px;
   padding: 5px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 label[for="project-4"]{
   font-size: 15px;
   padding: 5px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 label[for="project-5"]{
   font-size: 15px;
   padding: 5px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .projects-ul img{
@@ -63,11 +116,10 @@ label[for="project-5"]{
   border-color: #52DD5F;
 }
 
-#project-1:checked ~ .project-1-info{
-  transition: all 2s;
+#project-1:checked ~
+.project-1-info{
   display: flex;
   color: #03031B;
-  margin-bottom: 0%;
 }
 
 #project-2:checked ~
