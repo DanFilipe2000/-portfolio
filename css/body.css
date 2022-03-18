@@ -142,6 +142,7 @@ button img{
   display: flex;
   width: 120px;
   height: 5px;
+  transition: all 1s;
   background-color: #52DD5F;
 }
 
@@ -155,4 +156,10 @@ button img{
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+
+.section-3 h1{
+  display: flex;
+  align-self: center;
+  align-content: center;
 }
